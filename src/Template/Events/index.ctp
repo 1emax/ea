@@ -20,10 +20,10 @@
                 <th><?= $this->Paginator->sort('id') ?></th>
                 <th><?= $this->Paginator->sort('user_id') ?></th>
                 <th><?= $this->Paginator->sort('name') ?></th>
+                <th><?= $this->Paginator->sort('price') ?></th>
                 <th><?= $this->Paginator->sort('place_id') ?></th>
+                <th><?= $this->Paginator->sort('url') ?></th>
                 <th><?= $this->Paginator->sort('created') ?></th>
-                <th><?= $this->Paginator->sort('modified') ?></th>
-                <th><?= $this->Paginator->sort('event_date') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -33,10 +33,10 @@
                 <td><?= $this->Number->format($event->id) ?></td>
                 <td><?= $event->has('user') ? $this->Html->link($event->user->id, ['controller' => 'Users', 'action' => 'view', $event->user->id]) : '' ?></td>
                 <td><?= h($event->name) ?></td>
+                <td><?= $this->Number->format($event->price) ?></td>
                 <td><?= $event->has('place') ? $this->Html->link($event->place->name, ['controller' => 'Places', 'action' => 'view', $event->place->id]) : '' ?></td>
+                <td><?= h($event->url) ?></td>
                 <td><?= h($event->created) ?></td>
-                <td><?= h($event->modified) ?></td>
-                <td><?= h($event->event_date) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $event->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $event->id]) ?>

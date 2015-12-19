@@ -18,6 +18,8 @@ class EventsControllerTest extends IntegrationTestCase
     public $fixtures = [
         'app.events',
         'app.users',
+        'app.socials',
+        'app.social_types',
         'app.tickets',
         'app.places',
         'app.tags',

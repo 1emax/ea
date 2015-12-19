@@ -13,6 +13,7 @@ use Cake\Validation\Validator;
  * @property \Cake\ORM\Association\BelongsTo $Users
  * @property \Cake\ORM\Association\BelongsTo $Places
  * @property \Cake\ORM\Association\HasMany $Tickets
+ * @property \Cake\ORM\Association\BelongsToMany $Rooms
  * @property \Cake\ORM\Association\BelongsToMany $Tags
  */
 class EventsTable extends Table
@@ -45,6 +46,11 @@ class EventsTable extends Table
         $this->hasMany('Tickets', [
             'foreignKey' => 'event_id'
         ]);
+        $this->belongsToMany('Rooms', [
+            'foreignKey' => 'event_id',
+            'targetForeignKey' => 'room_id',
+            'joinTable' => 'events_rooms'
+        ]);
         $this->belongsToMany('Tags', [
             'foreignKey' => 'event_id',
             'targetForeignKey' => 'tag_id',
@@ -66,6 +72,10 @@ class EventsTable extends Table
 
         $validator
             ->allowEmpty('name');
+
+        $validator
+            ->add('price', 'valid', ['rule' => 'numeric'])
+            ->allowEmpty('price');
 
         $validator
             ->allowEmpty('description');

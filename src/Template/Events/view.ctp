@@ -31,8 +31,16 @@
             <td><?= $event->has('place') ? $this->Html->link($event->place->name, ['controller' => 'Places', 'action' => 'view', $event->place->id]) : '' ?></td>
         </tr>
         <tr>
+            <th><?= __('Url') ?></th>
+            <td><?= h($event->url) ?></td>
+        </tr>
+        <tr>
             <th><?= __('Id') ?></th>
             <td><?= $this->Number->format($event->id) ?></td>
+        </tr>
+        <tr>
+            <th><?= __('Price') ?></th>
+            <td><?= $this->Number->format($event->price) ?></td>
         </tr>
         <tr>
             <th><?= __('Created') ?></th>
@@ -50,10 +58,6 @@
     <div class="row">
         <h4><?= __('Description') ?></h4>
         <?= $this->Text->autoParagraph(h($event->description)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('Url') ?></h4>
-        <?= $this->Text->autoParagraph(h($event->url)); ?>
     </div>
     <div class="related">
         <h4><?= __('Related Tickets') ?></h4>

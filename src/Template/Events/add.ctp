@@ -19,6 +19,7 @@
         <?php
             echo $this->Form->input('user_id', ['options' => $users]);
             echo $this->Form->input('name');
+            echo $this->Form->input('price');
             echo $this->Form->input('description');
             echo $this->Form->input('place_id', ['options' => $places]);
             echo $this->Form->input('url');

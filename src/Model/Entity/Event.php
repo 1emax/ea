@@ -10,6 +10,7 @@ use Cake\ORM\Entity;
  * @property int $user_id
  * @property \App\Model\Entity\User $user
  * @property string $name
+ * @property int $price
  * @property string $description
  * @property int $place_id
  * @property \App\Model\Entity\Place $place
