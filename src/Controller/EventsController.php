@@ -111,4 +111,22 @@ class EventsController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
+
+    public function tags()
+    {
+        // The 'pass' key is provided by CakePHP and contains all
+        // the passed URL path segments in the request.
+        $tags = $this->request->params['pass'];
+
+        // Use the EventsTable to find tagged events.
+        $events = $this->Events->find('tagged', [
+            'tags' => $tags
+        ]);
+
+        // Pass variables into the view template context.
+        $this->set([
+            'events' => $events,
+            'tags' => $tags
+        ]);
+    }
 }
