@@ -19,7 +19,10 @@ class EventsController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Users', 'Places']
+            'contain' => ['Users', 'Places'],
+            'conditions' => [
+                'Events.user_id' => $this->Auth->user('id')
+            ]
         ];
         $this->set('events', $this->paginate($this->Events));
         $this->set('_serialize', ['events']);
@@ -51,6 +54,7 @@ class EventsController extends AppController
         $event = $this->Events->newEntity();
         if ($this->request->is('post')) {
             $event = $this->Events->patchEntity($event, $this->request->data);
+            $event->user_id = $this->Auth->user('id');
             if ($this->Events->save($event)) {
                 $this->Flash->success(__('The event has been saved.'));
                 return $this->redirect(['action' => 'index']);
@@ -79,6 +83,7 @@ class EventsController extends AppController
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $event = $this->Events->patchEntity($event, $this->request->data);
+            $event->user_id = $this->Auth->user('id');
             if ($this->Events->save($event)) {
                 $this->Flash->success(__('The event has been saved.'));
                 return $this->redirect(['action' => 'index']);
@@ -121,7 +126,7 @@ class EventsController extends AppController
         // Use the EventsTable to find tagged events.
         $events = $this->Events->find('tagged', [
             'tags' => $tags
-        ]);
+            ])->where(['Events.user_id' => $this->Auth->user('id')]);
 
         // Pass variables into the view template context.
         $this->set([
