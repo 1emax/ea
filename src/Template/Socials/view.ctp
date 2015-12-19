@@ -19,16 +19,16 @@
             <td><?= $social->has('user') ? $this->Html->link($social->user->id, ['controller' => 'Users', 'action' => 'view', $social->user->id]) : '' ?></td>
         </tr>
         <tr>
+            <th><?= __('Id Network') ?></th>
+            <td><?= h($social->id_network) ?></td>
+        </tr>
+        <tr>
             <th><?= __('Social Type') ?></th>
             <td><?= $social->has('social_type') ? $this->Html->link($social->social_type->name, ['controller' => 'SocialTypes', 'action' => 'view', $social->social_type->id]) : '' ?></td>
         </tr>
         <tr>
             <th><?= __('Id') ?></th>
             <td><?= $this->Number->format($social->id) ?></td>
-        </tr>
-        <tr>
-            <th><?= __('Net Id') ?></th>
-            <td><?= $this->Number->format($social->net_id) ?></td>
         </tr>
         <tr>
             <th><?= __('Created') ?></th>

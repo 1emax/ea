@@ -23,7 +23,6 @@ class SocialsControllerTest extends IntegrationTestCase
         'app.tickets',
         'app.tags',
         'app.events_tags',
-        'app.nets',
         'app.social_types'
     ];
 

@@ -14,7 +14,7 @@
         <legend><?= __('Add Social') ?></legend>
         <?php
             echo $this->Form->input('user_id', ['options' => $users]);
-            echo $this->Form->input('net_id');
+            echo $this->Form->input('id_network');
             echo $this->Form->input('social_type_id', ['options' => $socialTypes]);
         ?>
     </fieldset>

@@ -15,7 +15,7 @@
             <tr>
                 <th><?= $this->Paginator->sort('id') ?></th>
                 <th><?= $this->Paginator->sort('user_id') ?></th>
-                <th><?= $this->Paginator->sort('net_id') ?></th>
+                <th><?= $this->Paginator->sort('id_network') ?></th>
                 <th><?= $this->Paginator->sort('social_type_id') ?></th>
                 <th><?= $this->Paginator->sort('created') ?></th>
                 <th><?= $this->Paginator->sort('modified') ?></th>
@@ -27,7 +27,7 @@
             <tr>
                 <td><?= $this->Number->format($social->id) ?></td>
                 <td><?= $social->has('user') ? $this->Html->link($social->user->id, ['controller' => 'Users', 'action' => 'view', $social->user->id]) : '' ?></td>
-                <td><?= $this->Number->format($social->net_id) ?></td>
+                <td><?= h($social->id_network) ?></td>
                 <td><?= $social->has('social_type') ? $this->Html->link($social->social_type->name, ['controller' => 'SocialTypes', 'action' => 'view', $social->social_type->id]) : '' ?></td>
                 <td><?= h($social->created) ?></td>
                 <td><?= h($social->modified) ?></td>

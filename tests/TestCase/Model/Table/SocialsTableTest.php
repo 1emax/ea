@@ -24,7 +24,6 @@ class SocialsTableTest extends TestCase
         'app.tickets',
         'app.tags',
         'app.events_tags',
-        'app.nets',
         'app.social_types'
     ];
 

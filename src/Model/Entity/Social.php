@@ -9,8 +9,7 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property int $user_id
  * @property \App\Model\Entity\User $user
- * @property int $net_id
- * @property \App\Model\Entity\Net $net
+ * @property string $id_network
  * @property int $social_type_id
  * @property \App\Model\Entity\SocialType $social_type
  * @property \Cake\I18n\Time $created

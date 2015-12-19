@@ -19,7 +19,7 @@ class SocialsFixture extends TestFixture
     public $fields = [
         'id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'autoIncrement' => true, 'precision' => null],
         'user_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
-        'net_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
+        'id_network' => ['type' => 'string', 'length' => 255, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
         'social_type_id' => ['type' => 'integer', 'length' => 2, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'created' => ['type' => 'datetime', 'length' => null, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null],
         'modified' => ['type' => 'datetime', 'length' => null, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null],
@@ -48,10 +48,10 @@ class SocialsFixture extends TestFixture
         [
             'id' => 1,
             'user_id' => 1,
-            'net_id' => 1,
+            'id_network' => 'Lorem ipsum dolor sit amet',
             'social_type_id' => 1,
-            'created' => '2015-12-19 04:49:24',
-            'modified' => '2015-12-19 04:49:24'
+            'created' => '2015-12-19 05:04:30',
+            'modified' => '2015-12-19 05:04:30'
         ],
     ];
 }

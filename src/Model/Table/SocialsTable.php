@@ -54,6 +54,10 @@ class SocialsTable extends Table
             ->add('id', 'valid', ['rule' => 'numeric'])
             ->allowEmpty('id', 'create');
 
+        $validator
+            ->requirePresence('id_network', 'create')
+            ->notEmpty('id_network');
+
         return $validator;
     }
 
