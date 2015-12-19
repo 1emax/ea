@@ -2,6 +2,7 @@
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
+use Cake\Collection\Collection;
 
 /**
  * Event Entity.
@@ -34,7 +35,29 @@ class Event extends Entity
      * @var array
      */
     protected $_accessible = [
+        'user_id' => true,
+        'name' => true,
+        'description' => true,
+        'url' => true,
+        'user' => true,
+        'tags' => true,
+        'tag_string' => true,
         '*' => true,
         'id' => false,
     ];
+
+    protected function _getTagString()
+    {
+        if (isset($this->_properties['tag_string'])) {
+            return $this->_properties['tag_string'];
+        }
+        if (empty($this->tags)) {
+            return '';
+        }
+        $tags = new Collection($this->tags);
+        $str = $tags->reduce(function ($string, $tag) {
+            return $string . $tag->name . ', ';
+        }, '');
+        return trim($str, ', ');
+    }
 }
