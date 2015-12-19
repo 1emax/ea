@@ -19,7 +19,14 @@ class TicketsTableTest extends TestCase
     public $fixtures = [
         'app.tickets',
         'app.users',
-        'app.events'
+        'app.events',
+        'app.places',
+        'app.rooms',
+        'app.events_rooms',
+        'app.tags',
+        'app.events_tags',
+        'app.socials',
+        'app.social_types'
     ];
 
     /**
