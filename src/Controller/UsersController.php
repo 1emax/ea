@@ -103,6 +103,11 @@ class UsersController extends AppController
         return $this->redirect(['action' => 'index']);
     }
 
+    public function beforeFilter(\Cake\Event\Event $event)
+    {
+        $this->Auth->allow(['add']);
+    }
+
     public function login()
     {
         if ($this->request->is('post')) {
@@ -113,5 +118,11 @@ class UsersController extends AppController
             }
             $this->Flash->error('Your phone or password is incorrect.');
         }
+    }
+
+    public function logout()
+    {
+        $this->Flash->success('You are now logged out.');
+        return $this->redirect($this->Auth->logout());
     }
 }
