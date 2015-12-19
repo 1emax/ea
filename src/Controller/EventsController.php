@@ -129,4 +129,26 @@ class EventsController extends AppController
             'tags' => $tags
         ]);
     }
+
+    public function isAuthorized($user)
+    {
+        $action = $this->request->params['action'];
+
+        // The add and index actions are always allowed.
+        if (in_array($action, ['index', 'add', 'tags'])) {
+            return true;
+        }
+        // All other actions require an id.
+        if (empty($this->request->params['pass'][0])) {
+            return false;
+        }
+
+        // Check that the event belongs to the current user.
+        $id = $this->request->params['pass'][0];
+        $event = $this->Events->get($id);
+        if ($event->user_id == $user['id']) {
+            return true;
+        }
+        return parent::isAuthorized($user);
+    }
 }
