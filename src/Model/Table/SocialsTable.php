@@ -11,7 +11,6 @@ use Cake\Validation\Validator;
  * Socials Model
  *
  * @property \Cake\ORM\Association\BelongsTo $Users
- * @property \Cake\ORM\Association\BelongsTo $Nets
  * @property \Cake\ORM\Association\BelongsTo $SocialTypes
  */
 class SocialsTable extends Table
@@ -35,10 +34,6 @@ class SocialsTable extends Table
 
         $this->belongsTo('Users', [
             'foreignKey' => 'user_id',
-            'joinType' => 'INNER'
-        ]);
-        $this->belongsTo('Nets', [
-            'foreignKey' => 'net_id',
             'joinType' => 'INNER'
         ]);
         $this->belongsTo('SocialTypes', [
@@ -72,7 +67,6 @@ class SocialsTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->existsIn(['user_id'], 'Users'));
-        $rules->add($rules->existsIn(['net_id'], 'Nets'));
         $rules->add($rules->existsIn(['social_type_id'], 'SocialTypes'));
         return $rules;
     }

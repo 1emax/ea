@@ -19,7 +19,7 @@ class SocialsController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Users', 'Nets', 'SocialTypes']
+            'contain' => ['Users', 'SocialTypes']
         ];
         $this->set('socials', $this->paginate($this->Socials));
         $this->set('_serialize', ['socials']);
@@ -35,7 +35,7 @@ class SocialsController extends AppController
     public function view($id = null)
     {
         $social = $this->Socials->get($id, [
-            'contain' => ['Users', 'Nets', 'SocialTypes']
+            'contain' => ['Users', 'SocialTypes']
         ]);
         $this->set('social', $social);
         $this->set('_serialize', ['social']);
@@ -59,9 +59,8 @@ class SocialsController extends AppController
             }
         }
         $users = $this->Socials->Users->find('list', ['limit' => 200]);
-        $nets = $this->Socials->Nets->find('list', ['limit' => 200]);
         $socialTypes = $this->Socials->SocialTypes->find('list', ['limit' => 200]);
-        $this->set(compact('social', 'users', 'nets', 'socialTypes'));
+        $this->set(compact('social', 'users', 'socialTypes'));
         $this->set('_serialize', ['social']);
     }
 
@@ -87,9 +86,8 @@ class SocialsController extends AppController
             }
         }
         $users = $this->Socials->Users->find('list', ['limit' => 200]);
-        $nets = $this->Socials->Nets->find('list', ['limit' => 200]);
         $socialTypes = $this->Socials->SocialTypes->find('list', ['limit' => 200]);
-        $this->set(compact('social', 'users', 'nets', 'socialTypes'));
+        $this->set(compact('social', 'users', 'socialTypes'));
         $this->set('_serialize', ['social']);
     }
 
