@@ -21,7 +21,7 @@
         <?php
             echo $this->Form->input('user_id', ['options' => $users, 'empty' => true]);
             echo $this->Form->input('seat_name');
-            echo $this->Form->input('seat_status');
+            echo $this->Form->input('seat_status', ['options'=>$seat_status]);
             echo $this->Form->input('event_id', ['options' => $events]);
         ?>
     </fieldset>

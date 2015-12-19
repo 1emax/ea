@@ -15,7 +15,7 @@ use Cake\Validation\Validator;
  */
 class TicketsTable extends Table
 {
-
+    public $seat_status = array('free'=>'Свободно', 'booked'=>'Забронирован', 'canceled'=>'Отменен', 'paid'=>'Оплачен');
     /**
      * Initialize method
      *

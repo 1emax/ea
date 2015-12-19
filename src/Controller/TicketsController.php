@@ -38,6 +38,7 @@ class TicketsController extends AppController
             'contain' => ['Users', 'Events']
         ]);
         $this->set('ticket', $ticket);
+        $this->set('seat_status', $this->Tickets->seat_status);
         $this->set('_serialize', ['ticket']);
     }
 
@@ -60,7 +61,8 @@ class TicketsController extends AppController
         }
         $users = $this->Tickets->Users->find('list', ['limit' => 200]);
         $events = $this->Tickets->Events->find('list', ['limit' => 200]);
-        $this->set(compact('ticket', 'users', 'events'));
+        $seat_status = $this->Tickets->seat_status;
+        $this->set(compact('ticket', 'users', 'events', 'seat_status'));
         $this->set('_serialize', ['ticket']);
     }
 
@@ -87,7 +89,8 @@ class TicketsController extends AppController
         }
         $users = $this->Tickets->Users->find('list', ['limit' => 200]);
         $events = $this->Tickets->Events->find('list', ['limit' => 200]);
-        $this->set(compact('ticket', 'users', 'events'));
+        $seat_status = $this->Tickets->seat_status;
+        $this->set(compact('ticket', 'users', 'events', 'seat_status'));
         $this->set('_serialize', ['ticket']);
     }
 

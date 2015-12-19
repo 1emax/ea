@@ -41,6 +41,6 @@
     </table>
     <div class="row">
         <h4><?= __('Seat Status') ?></h4>
-        <?= $this->Text->autoParagraph(h($ticket->seat_status)); ?>
+        <?= $this->Text->autoParagraph(h($seat_status[$ticket->seat_status])); ?>
     </div>
 </div>
