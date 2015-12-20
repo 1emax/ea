@@ -32,6 +32,7 @@ class TicketsTable extends Table
         $this->primaryKey('id');
 
         $this->addBehavior('Timestamp');
+        $this->addBehavior('Translate', ['fields' => ['seat_status']]);
 
         $this->belongsTo('Users', [
             'foreignKey' => 'user_id'

@@ -34,7 +34,12 @@ class UsersController extends AppController
         $user = $this->Users->get($id, [
             'contain' => ['Events', 'Socials', 'Tickets']
         ]);
-        $this->set('user', $user);
+        // debug($user->tickets);
+        $ticketsEventsIds = array_map(function($ticket) {return $ticket->event_id;}, $user->tickets);
+        $eventsList = $this->Users->Events->find('list', [
+            'fields' => ['Events.id', 'Events.name']])
+            ->where(['Events.id IN' => $ticketsEventsIds])->toArray();
+        $this->set(compact('user', 'eventsList'));
         $this->set('_serialize', ['user']);
     }
 
