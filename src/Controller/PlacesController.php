@@ -32,7 +32,7 @@ class PlacesController extends AppController
     public function view($id = null)
     {
         $place = $this->Places->get($id, [
-            'contain' => ['Events']
+            'contain' => ['Events', 'Rooms']
         ]);
         $this->set('place', $place);
         $this->set('_serialize', ['place']);

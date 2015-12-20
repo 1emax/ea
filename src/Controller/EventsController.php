@@ -24,6 +24,7 @@ class EventsController extends AppController
                 'Events.user_id' => $this->Auth->user('id')
             ]
         ];
+
         $this->set('events', $this->paginate($this->Events));
         $this->set('_serialize', ['events']);
     }
@@ -38,7 +39,7 @@ class EventsController extends AppController
     public function view($id = null)
     {
         $event = $this->Events->get($id, [
-            'contain' => ['Users', 'Places', 'Tags', 'Tickets']
+            'contain' => ['Users', 'Places', 'Rooms', 'Tags', 'Tickets']
         ]);
         $this->set('event', $event);
         $this->set('_serialize', ['event']);
@@ -64,8 +65,9 @@ class EventsController extends AppController
         }
         $users = $this->Events->Users->find('list', ['limit' => 200]);
         $places = $this->Events->Places->find('list', ['limit' => 200]);
+        $rooms = $this->Events->Rooms->find('list', ['limit' => 200]);
         $tags = $this->Events->Tags->find('list', ['limit' => 200]);
-        $this->set(compact('event', 'users', 'places', 'tags'));
+        $this->set(compact('event', 'users', 'places', 'rooms', 'tags'));
         $this->set('_serialize', ['event']);
     }
 
@@ -79,7 +81,7 @@ class EventsController extends AppController
     public function edit($id = null)
     {
         $event = $this->Events->get($id, [
-            'contain' => ['Tags']
+            'contain' => ['Rooms', 'Tags']
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $event = $this->Events->patchEntity($event, $this->request->data);
@@ -93,11 +95,9 @@ class EventsController extends AppController
         }
         $users = $this->Events->Users->find('list', ['limit' => 200]);
         $places = $this->Events->Places->find('list', ['limit' => 200]);
-        $place = $this->Events->Places->get($event->place_id, [
-            'contain' => ['Rooms']
-        ]);
+        $rooms = $this->Events->Rooms->find('list', ['limit' => 200]);
         $tags = $this->Events->Tags->find('list', ['limit' => 200]);
-        $this->set(compact('event', 'users', 'places', 'tags', 'place'));
+        $this->set(compact('event', 'users', 'places', 'rooms', 'tags'));
         $this->set('_serialize', ['event']);
     }
 
