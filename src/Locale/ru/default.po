@@ -211,7 +211,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:3;25
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:3;66;103;138
 msgid "Actions"
-msgstr ""
+msgstr "Действия"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:4
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:10
@@ -245,7 +245,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:5
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:8
 msgid "List Events"
-msgstr ""
+msgstr "Мероприятия"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:5
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:11
@@ -263,7 +263,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:10
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:6
 msgid "List Users"
-msgstr ""
+msgstr "Пользователи"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:6
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:12
@@ -280,7 +280,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:4
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:7
 msgid "New User"
-msgstr ""
+msgstr "Создать пользователя"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:7
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:13
@@ -294,7 +294,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:5
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:8
 msgid "List Places"
-msgstr ""
+msgstr "Заведения"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:8
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:14
@@ -307,7 +307,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:6
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:9
 msgid "New Place"
-msgstr ""
+msgstr "Создать заведение"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:9
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:15
@@ -321,7 +321,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:9
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:12
 msgid "List Tickets"
-msgstr ""
+msgstr "Билеты"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:10
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:16
@@ -334,7 +334,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:10
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:13
 msgid "New Ticket"
-msgstr ""
+msgstr "Создать билет"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:11
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:17
@@ -352,7 +352,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:10
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:6
 msgid "List Rooms"
-msgstr ""
+msgstr "Залы"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:12
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:18
@@ -369,7 +369,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:4
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:7
 msgid "New Room"
-msgstr ""
+msgstr "Создать зал"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:13
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:19
@@ -383,7 +383,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/edit.ctp:10
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:6
 msgid "List Tags"
-msgstr ""
+msgstr "Теги"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:14
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:20
@@ -396,11 +396,11 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:4
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:7
 msgid "New Tag"
-msgstr ""
+msgstr "Создать тег"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:20
 msgid "Add Event"
-msgstr ""
+msgstr "Добавить мероприятие"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:32
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:38
@@ -452,7 +452,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:41
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:84;118;154
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:7
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:45
@@ -523,11 +523,11 @@ msgstr "Редактировать мероприятие"
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:6
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:9
 msgid "New Event"
-msgstr ""
+msgstr "Создать мероприятие"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:18
 msgid "Events"
-msgstr ""
+msgstr "Мероприятия"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:43
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:84;120;150
@@ -546,7 +546,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:39
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:80;114;150
 msgid "View"
-msgstr ""
+msgstr "Просмотр"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:44
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:86;122;152
@@ -565,7 +565,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:40
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:82;116;152
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:53
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:39
@@ -595,7 +595,7 @@ msgstr ""
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:5
 msgid "Delete Event"
-msgstr ""
+msgstr "Удалить мероприятие"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:24;102;138
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:18;45;86
@@ -609,7 +609,7 @@ msgstr "Название"
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:28
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:26
 msgid "Place"
-msgstr ""
+msgstr "Заведение"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:32
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:49
@@ -654,7 +654,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:45
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:65
 msgid "Event Date"
-msgstr ""
+msgstr "Дата мероприятия"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:53;104
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:35;47;88
@@ -667,7 +667,7 @@ msgstr "Описание"
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:57
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:127
 msgid "Related Tickets"
-msgstr ""
+msgstr "Билеты"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:61;101;137
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:26
@@ -694,13 +694,13 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:22
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:133
 msgid "Seat Name"
-msgstr ""
+msgstr "Код места"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:64
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:51
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:134
 msgid "Seat Status"
-msgstr ""
+msgstr "Статус"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:66
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:135
@@ -767,7 +767,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:18
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:26
 msgid "Event"
-msgstr ""
+msgstr "Мероприятие"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:22
 msgid "Room"
@@ -827,24 +827,24 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:33
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:53
 msgid "Related Events"
-msgstr ""
+msgstr "Связанные мероприятия"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/add.ctp:14
 msgid "Add Room"
-msgstr ""
+msgstr "Добавить зал"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:20
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:4
 msgid "Edit Room"
-msgstr ""
+msgstr "Редактировать зал"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:12
 msgid "Rooms"
-msgstr ""
+msgstr "Залы"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:5
 msgid "Delete Room"
-msgstr ""
+msgstr "Удалить зал"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/add.ctp:4
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/edit.ctp:10
@@ -912,7 +912,7 @@ msgstr ""
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:33
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:93
 msgid "Related Socials"
-msgstr ""
+msgstr "Аккаунты соц. сетей"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:38
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:99
@@ -990,20 +990,20 @@ msgstr ""
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:16
 msgid "Add User"
-msgstr ""
+msgstr "Добавить пользователя"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:22
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:4
 msgid "Edit User"
-msgstr ""
+msgstr "Редактировать пользователя"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:14
 msgid "Users"
-msgstr ""
+msgstr "Пользователи"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:5
 msgid "Delete User"
-msgstr ""
+msgstr "Удалить пользователя"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:20
 msgid "Email"
@@ -1011,11 +1011,11 @@ msgstr ""
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:24
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:28
 msgid "Phone"
-msgstr ""
+msgstr "Телефон"
 
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:32
 msgid "Firstname"
@@ -1024,4 +1024,7 @@ msgstr "Имя"
 #: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:36
 msgid "Lastname"
 msgstr "Фамилия"
+
+msgid "Tag String"
+msgstr "Теги"
 
