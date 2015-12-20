@@ -11,6 +11,7 @@ use Cake\Validation\Validator;
  * Places Model
  *
  * @property \Cake\ORM\Association\HasMany $Events
+ * @property \Cake\ORM\Association\HasMany $Rooms
  */
 class PlacesTable extends Table
 {
@@ -32,6 +33,9 @@ class PlacesTable extends Table
         $this->addBehavior('Timestamp');
 
         $this->hasMany('Events', [
+            'foreignKey' => 'place_id'
+        ]);
+        $this->hasMany('Rooms', [
             'foreignKey' => 'place_id'
         ]);
     }

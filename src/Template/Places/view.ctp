@@ -41,6 +41,7 @@
                 <th><?= __('Id') ?></th>
                 <th><?= __('User Id') ?></th>
                 <th><?= __('Name') ?></th>
+                <th><?= __('Price') ?></th>
                 <th><?= __('Description') ?></th>
                 <th><?= __('Place Id') ?></th>
                 <th><?= __('Url') ?></th>
@@ -54,6 +55,7 @@
                 <td><?= h($events->id) ?></td>
                 <td><?= h($events->user_id) ?></td>
                 <td><?= h($events->name) ?></td>
+                <td><?= h($events->price) ?></td>
                 <td><?= h($events->description) ?></td>
                 <td><?= h($events->place_id) ?></td>
                 <td><?= h($events->url) ?></td>
