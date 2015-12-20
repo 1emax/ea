@@ -29,8 +29,9 @@
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
-    
+
     <script src="https://yastatic.net/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
     <?= $this->fetch('script') ?>
 </head>
 <body>
