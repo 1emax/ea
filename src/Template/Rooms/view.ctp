@@ -41,14 +41,12 @@
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-        <!-- <script src="https://yastatic.net/jquery/2.1.4/jquery.min.js" type="text/javascript"></script> -->
         <!-- Latest compiled and minified JavaScript -->
         <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 
         <? 
             $this->assign('title', $room->name);
             $this->Html->css('room', ['block' => true]);
-            $this->Html->script('https://yastatic.net/jquery/2.1.4/jquery.min.js', ['block' => true]);
             $this->Html->script('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', ['block' => true]);
             $this->Html->script('room', ['block' => true]);
 
