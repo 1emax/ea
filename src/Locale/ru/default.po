@@ -1,0 +1,1027 @@
+# LANGUAGE translation of CakePHP Application
+#
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-12-20 15:32+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsController.php:60;90
+msgid "The event has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsController.php:63;93
+msgid "The event could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsController.php:116
+msgid "The event has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsController.php:118
+msgid "The event could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsRoomsController.php:55;82
+msgid "The events room has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsRoomsController.php:58;85
+msgid "The events room could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsRoomsController.php:106
+msgid "The events room has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsRoomsController.php:108
+msgid "The events room could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsTagsController.php:55;82
+msgid "The events tag has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsTagsController.php:58;85
+msgid "The events tag could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsTagsController.php:106
+msgid "The events tag has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/EventsTagsController.php:108
+msgid "The events tag could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/PlacesController.php:52;77
+msgid "The place has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/PlacesController.php:55;80
+msgid "The place could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/PlacesController.php:99
+msgid "The place has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/PlacesController.php:101
+msgid "The place could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/RoomsController.php:55;82
+msgid "The room has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/RoomsController.php:58;85
+msgid "The room could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/RoomsController.php:106
+msgid "The room has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/RoomsController.php:108
+msgid "The room could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/SocialTypesController.php:52;77
+msgid "The social type has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/SocialTypesController.php:55;80
+msgid "The social type could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/SocialTypesController.php:99
+msgid "The social type has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/SocialTypesController.php:101
+msgid "The social type could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/SocialsController.php:55;82
+msgid "The social has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/SocialsController.php:58;85
+msgid "The social could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/SocialsController.php:106
+msgid "The social has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/SocialsController.php:108
+msgid "The social could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/TagsController.php:52;78
+msgid "The tag has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/TagsController.php:55;81
+msgid "The tag could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/TagsController.php:101
+msgid "The tag has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/TagsController.php:103
+msgid "The tag could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/TicketsController.php:56;84
+msgid "The ticket has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/TicketsController.php:59;87
+msgid "The ticket could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/TicketsController.php:109
+msgid "The ticket has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/TicketsController.php:111
+msgid "The ticket could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/UsersController.php:52;77
+msgid "The user has been saved."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/UsersController.php:55;80
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/UsersController.php:99
+msgid "The user has been deleted."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Controller/UsersController.php:101
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:3;29
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:3;70;108;141
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:3;19
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:3;19
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:3;20
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:3;53;92
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:3;22
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:3;75
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:3;18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:3;42
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:3;22
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:3;18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:3;46
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:3;23
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:3
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:3;25
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:3;66;103;138
+msgid "Actions"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/add.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/add.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:8
+msgid "List Events"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:6
+msgid "List Users"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:7
+msgid "New User"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:8
+msgid "List Places"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:9
+msgid "New Place"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:15
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:15
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:12
+msgid "List Tickets"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:16
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:16
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:13
+msgid "New Ticket"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:17
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/add.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/add.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:6
+msgid "List Rooms"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:15
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/add.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/add.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:7
+msgid "New Room"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:19
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:16
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/add.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:6
+msgid "List Tags"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:20
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:17
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/add.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:7
+msgid "New Tag"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:20
+msgid "Add Event"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/add.ctp:32
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:38
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/add.ctp:18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:24
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/add.ctp:18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:24
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/add.ctp:20
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:26
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/add.ctp:23
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:29
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/add.ctp:17
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/edit.ctp:23
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/add.ctp:21
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:27
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/add.ctp:18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/edit.ctp:24
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/add.ctp:24
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:30
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:25
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:31
+msgid "Submit"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:45
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:88;124;154
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:31
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:31
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:33
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:72;108
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:37
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:94
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:31
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:56
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:37
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:31
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:64
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:41
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:84;118;154
+msgid "Delete"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:45
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:5;88;124;154
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:31
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:31
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:33
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:5;72;108
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:37
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:5;94
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:31
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:5;56
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:37
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:31
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:5;64
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:41
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:5;84;118;154
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/edit.ctp:26
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:4
+msgid "Edit Event"
+msgstr "Редактировать мероприятие"
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/add.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/add.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:9
+msgid "New Event"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:18
+msgid "Events"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:43
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:84;120;150
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:29
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:29
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:31
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:68;104
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:35
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:90
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:29
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:52
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:35
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:29
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:60
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:37
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:80;114;150
+msgid "View"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:44
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:86;122;152
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:30
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:30
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:32
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:70;106
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:36
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:92
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:30
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:54
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:36
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:30
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:62
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:38
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:40
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:82;116;152
+msgid "Edit"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:53
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:41
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:45
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:45
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:47
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:49
+msgid "previous"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/index.ctp:55
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:41
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:41
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:43
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:47
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:41
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:47
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:41
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:49
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:51
+msgid "next"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:5
+msgid "Delete Event"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:24;102;138
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:18;45;86
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:18;67
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:16
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:16;39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:59
+msgid "Name"
+msgstr "Название"
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:28
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:26
+msgid "Place"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:32
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:49
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:71
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:42
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:62
+msgid "Url"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:36;65
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:46
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:68
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:34
+msgid "Price"
+msgstr "Цена"
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:40;68;106;139
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:26;50;90
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:30;72
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:24;40
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:34
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:24;43
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:42
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:44;63;101;136
+msgid "Created"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:44;69;107;140
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:30;51;91
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:34;73
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:28;41
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:38
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:28;44
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:46
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:48;64;102;137
+msgid "Modified"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:48
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:52
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:74
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:45
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:65
+msgid "Event Date"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:53;104
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:35;47;88
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:57;69
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:40
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:60
+msgid "Description"
+msgstr "Описание"
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:57
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:127
+msgid "Related Tickets"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:61;101;137
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:26
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:26
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:22;43;85
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:65
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:20;37
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:30
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:20;37
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:30
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:40;57;97;131
+msgid "Id"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:62
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:44
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:66
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:38
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:58;98;132
+msgid "User Id"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:63
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:22
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:133
+msgid "Seat Name"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:64
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:51
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:134
+msgid "Seat Status"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:66
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:135
+msgid "Event Id"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:67
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:38
+msgid "Room Id"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:97
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:81
+msgid "Related Rooms"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:103
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:87
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:22
+msgid "Template Name"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:105
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:48;89
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:70
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:41
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:61
+msgid "Place Id"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Events/view.ctp:133
+msgid "Related Tags"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:6
+msgid "List Events Rooms"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/add.ctp:14
+msgid "Add Events Room"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/edit.ctp:20
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:4
+msgid "Edit Events Room"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:7
+msgid "New Events Room"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/index.ctp:12
+msgid "Events Rooms"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:5
+msgid "Delete Events Room"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:26
+msgid "Event"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsRooms/view.ctp:22
+msgid "Room"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:6
+msgid "List Events Tags"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/add.ctp:14
+msgid "Add Events Tag"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/edit.ctp:20
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:4
+msgid "Edit Events Tag"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:7
+msgid "New Events Tag"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/index.ctp:12
+msgid "Events Tags"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:5
+msgid "Delete Events Tag"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/EventsTags/view.ctp:22
+msgid "Tag"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/add.ctp:14
+msgid "Add Place"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/edit.ctp:20
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:4
+msgid "Edit Place"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/index.ctp:12
+msgid "Places"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:5
+msgid "Delete Place"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Places/view.ctp:39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:61
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:33
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:53
+msgid "Related Events"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/add.ctp:14
+msgid "Add Room"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/edit.ctp:20
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:4
+msgid "Edit Room"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/index.ctp:12
+msgid "Rooms"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Rooms/view.ctp:5
+msgid "Delete Room"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/add.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:10
+msgid "List Social Types"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/add.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/edit.ctp:11
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:5
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/add.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:10
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:13
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:10
+msgid "List Socials"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/add.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/edit.ctp:12
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:6
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:9
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:11
+msgid "New Social"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/add.ctp:12
+msgid "Add Social Type"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/edit.ctp:18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:4
+msgid "Edit Social Type"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:4
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:7
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/add.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:14
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:8
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:11
+msgid "New Social Type"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/index.ctp:10
+msgid "Social Types"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:5
+msgid "Delete Social Type"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:33
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:93
+msgid "Related Socials"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:38
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:99
+msgid "Net Id"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/SocialTypes/view.ctp:39
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:100
+msgid "Social Type Id"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/add.ctp:14
+msgid "Add Social"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/edit.ctp:20
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:4
+msgid "Edit Social"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/index.ctp:12
+msgid "Socials"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:5
+msgid "Delete Social"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:18
+msgid "User"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:22
+msgid "Id Network"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Socials/view.ctp:26
+msgid "Social Type"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/add.ctp:12
+msgid "Add Tag"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/edit.ctp:18
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:4
+msgid "Edit Tag"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/index.ctp:10
+msgid "Tags"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tags/view.ctp:5
+msgid "Delete Tag"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/add.ctp:14
+msgid "Add Ticket"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/edit.ctp:20
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:4
+msgid "Edit Ticket"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/index.ctp:12
+msgid "Tickets"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Tickets/view.ctp:5
+msgid "Delete Ticket"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/add.ctp:16
+msgid "Add User"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/edit.ctp:22
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:4
+msgid "Edit User"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/index.ctp:14
+msgid "Users"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:5
+msgid "Delete User"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:20
+msgid "Email"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:24
+msgid "Password"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:28
+msgid "Phone"
+msgstr ""
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:32
+msgid "Firstname"
+msgstr "Имя"
+
+#: /var/www/develop/data/www/ea.dev-lem.ru//Template/Users/view.ctp:36
+msgid "Lastname"
+msgstr "Фамилия"
+
