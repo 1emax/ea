@@ -17,7 +17,15 @@ class PlacesControllerTest extends IntegrationTestCase
      */
     public $fixtures = [
         'app.places',
-        'app.events'
+        'app.events',
+        'app.users',
+        'app.socials',
+        'app.social_types',
+        'app.tickets',
+        'app.rooms',
+        'app.events_rooms',
+        'app.tags',
+        'app.events_tags'
     ];
 
     /**
