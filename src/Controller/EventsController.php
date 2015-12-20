@@ -93,8 +93,11 @@ class EventsController extends AppController
         }
         $users = $this->Events->Users->find('list', ['limit' => 200]);
         $places = $this->Events->Places->find('list', ['limit' => 200]);
+        $place = $this->Events->Places->get($event->place_id, [
+            'contain' => ['Rooms']
+        ]);
         $tags = $this->Events->Tags->find('list', ['limit' => 200]);
-        $this->set(compact('event', 'users', 'places', 'tags'));
+        $this->set(compact('event', 'users', 'places', 'tags', 'place'));
         $this->set('_serialize', ['event']);
     }
 

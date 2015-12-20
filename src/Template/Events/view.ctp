@@ -19,10 +19,6 @@
     <h3><?= h($event->name) ?></h3>
     <table class="vertical-table">
         <tr>
-            <th><?= __('User') ?></th>
-            <td><?= $event->has('user') ? $this->Html->link($event->user->id, ['controller' => 'Users', 'action' => 'view', $event->user->id]) : '' ?></td>
-        </tr>
-        <tr>
             <th><?= __('Name') ?></th>
             <td><?= h($event->name) ?></td>
         </tr>
@@ -33,10 +29,6 @@
         <tr>
             <th><?= __('Url') ?></th>
             <td><?= h($event->url) ?></td>
-        </tr>
-        <tr>
-            <th><?= __('Id') ?></th>
-            <td><?= $this->Number->format($event->id) ?></td>
         </tr>
         <tr>
             <th><?= __('Price') ?></th>

@@ -23,6 +23,8 @@
     <fieldset>
         <legend><?= __('Edit Event') ?></legend>
         <?php
+        var_dump($place->rooms);
+
             echo $this->Form->input('name');
             echo $this->Form->input('price');
             echo $this->Form->input('description');
