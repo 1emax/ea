@@ -31,6 +31,14 @@
             <td><?= $this->Number->format($ticket->id) ?></td>
         </tr>
         <tr>
+            <th><?= __('Price') ?></th>
+            <td><?= $this->Number->format($ticket->price) ?></td>
+        </tr>
+        <tr>
+            <th><?= __('Room Id') ?></th>
+            <td><?= $this->Number->format($ticket->room_id) ?></td>
+        </tr>
+        <tr>
             <th><?= __('Created') ?></th>
             <td><?= h($ticket->created) ?></td>
         </tr>
