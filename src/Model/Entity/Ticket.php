@@ -20,7 +20,7 @@ use Cake\ORM\Entity;
  */
 class Ticket extends Entity
 {
-
+    private $seat_statuses = array('free'=>'Свободно', 'booked'=>'Забронирован', 'canceled'=>'Отменен', 'paid'=>'Оплачен');
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
      *
@@ -34,4 +34,9 @@ class Ticket extends Entity
         '*' => true,
         'id' => false,
     ];
+
+    public function enumSeatStatus() {
+        $name = $this->seat_status;
+        return $this->seat_statuses[$name];
+    }
 }
