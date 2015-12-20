@@ -12,6 +12,7 @@ use Cake\Validation\Validator;
  *
  * @property \Cake\ORM\Association\BelongsTo $Users
  * @property \Cake\ORM\Association\BelongsTo $Events
+ * @property \Cake\ORM\Association\BelongsTo $Rooms
  */
 class TicketsTable extends Table
 {
@@ -39,6 +40,10 @@ class TicketsTable extends Table
             'foreignKey' => 'event_id',
             'joinType' => 'INNER'
         ]);
+        $this->belongsTo('Rooms', [
+            'foreignKey' => 'room_id',
+            'joinType' => 'INNER'
+        ]);
     }
 
     /**
@@ -60,6 +65,10 @@ class TicketsTable extends Table
             ->requirePresence('seat_status', 'create')
             ->notEmpty('seat_status');
 
+        $validator
+            ->add('price', 'valid', ['rule' => 'numeric'])
+            ->allowEmpty('price');
+
         return $validator;
     }
 
@@ -74,6 +83,7 @@ class TicketsTable extends Table
     {
         $rules->add($rules->existsIn(['user_id'], 'Users'));
         $rules->add($rules->existsIn(['event_id'], 'Events'));
+        $rules->add($rules->existsIn(['room_id'], 'Rooms'));
         return $rules;
     }
 }

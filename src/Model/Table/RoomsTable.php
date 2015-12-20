@@ -11,6 +11,7 @@ use Cake\Validation\Validator;
  * Rooms Model
  *
  * @property \Cake\ORM\Association\BelongsTo $Places
+ * @property \Cake\ORM\Association\HasMany $Tickets
  * @property \Cake\ORM\Association\BelongsToMany $Events
  */
 class RoomsTable extends Table
@@ -35,6 +36,9 @@ class RoomsTable extends Table
         $this->belongsTo('Places', [
             'foreignKey' => 'place_id',
             'joinType' => 'INNER'
+        ]);
+        $this->hasMany('Tickets', [
+            'foreignKey' => 'room_id'
         ]);
         $this->belongsToMany('Events', [
             'foreignKey' => 'room_id',
