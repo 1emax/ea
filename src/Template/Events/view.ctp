@@ -74,7 +74,7 @@
                 <td><?= h($tickets->id) ?></td>
                 <td><?= h($tickets->user_id) ?></td>
                 <td><?= h($tickets->seat_name) ?></td>
-                <td><?= h($tickets->seat_status) ?></td>
+                <td><?= h($tickets->enumSeatStatus()) ?></td>
                 <td><?= h($tickets->price) ?></td>
                 <td><?= h($tickets->event_id) ?></td>
                 <td><?= h($tickets->room_id) ?></td>
