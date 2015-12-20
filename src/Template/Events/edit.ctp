@@ -25,14 +25,22 @@
     <fieldset>
         <legend><?= __('Edit Event') ?></legend>
         <?php
-            echo $this->Form->input('name');
-            echo $this->Form->input('price');
-            echo $this->Form->input('description');
+            echo $this->Form->input('name', ['label' => [
+                'text' => __('Name')
+            ]]);
+            echo $this->Form->input('price', ['label' => [
+                'text' => __('Price')
+            ]]);
+            echo $this->Form->input('description', ['label' => [
+                'text' => __('Description')
+            ]]);
             echo $this->Form->input('place_id', ['options' => $places]);
             echo $this->Form->input('url');
             echo $this->Form->input('event_date');
             echo $this->Form->input('rooms._ids', ['options' => $rooms]);
-            echo $this->Form->input('tag_string', ['type' => 'text']);
+            echo $this->Form->input('Tag String', ['type' => 'text'], ['label' => [
+                'text' => __('Name')
+            ]]);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

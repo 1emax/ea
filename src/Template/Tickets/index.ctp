@@ -27,7 +27,7 @@
             <?php foreach ($tickets as $ticket): ?>
             <tr>
                 <td><?= $this->Number->format($ticket->id) ?></td>
-                <td><?= $ticket->has('user') ? $this->Html->link($ticket->user->id, ['controller' => 'Users', 'action' => 'view', $ticket->user->id]) : '' ?></td>
+                <td><?= $ticket->has('user') ? $this->Html->link($ticket->user->lastname . ' ' .$ticket->user->firstname, ['controller' => 'Users', 'action' => 'view', $ticket->user->id]) : '' ?></td>
                 <td><?= h($ticket->seat_name) ?></td>
                 <td><?= $this->Number->format($ticket->price) ?></td>
                 <td><?= $ticket->has('event') ? $this->Html->link($ticket->event->name, ['controller' => 'Events', 'action' => 'view', $ticket->event->id]) : '' ?></td>
