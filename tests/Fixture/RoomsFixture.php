@@ -50,8 +50,8 @@ class RoomsFixture extends TestFixture
             'template_name' => 'Lorem ipsum dolor sit amet',
             'description' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
             'place_id' => 1,
-            'created' => '2015-12-19 05:28:43',
-            'modified' => '2015-12-19 05:28:43'
+            'created' => '2015-12-20 13:53:40',
+            'modified' => '2015-12-20 13:53:40'
         ],
     ];
 }

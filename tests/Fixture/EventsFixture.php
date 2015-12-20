@@ -57,9 +57,9 @@ class EventsFixture extends TestFixture
             'description' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
             'place_id' => 1,
             'url' => 'Lorem ipsum dolor sit amet',
-            'created' => '2015-12-19 05:28:28',
-            'modified' => '2015-12-19 05:28:28',
-            'event_date' => '2015-12-19 05:28:28'
+            'created' => '2015-12-20 13:53:56',
+            'modified' => '2015-12-20 13:53:56',
+            'event_date' => '2015-12-20 13:53:56'
         ],
     ];
 }

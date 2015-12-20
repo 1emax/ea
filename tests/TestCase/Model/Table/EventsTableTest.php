@@ -22,7 +22,9 @@ class EventsTableTest extends TestCase
         'app.socials',
         'app.social_types',
         'app.tickets',
+        'app.rooms',
         'app.places',
+        'app.events_rooms',
         'app.tags',
         'app.events_tags'
     ];
@@ -77,6 +79,26 @@ class EventsTableTest extends TestCase
      * @return void
      */
     public function testBuildRules()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test findTagged method
+     *
+     * @return void
+     */
+    public function testFindTagged()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test beforeSave method
+     *
+     * @return void
+     */
+    public function testBeforeSave()
     {
         $this->markTestIncomplete('Not implemented yet.');
     }

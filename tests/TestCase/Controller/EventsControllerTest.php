@@ -21,7 +21,9 @@ class EventsControllerTest extends IntegrationTestCase
         'app.socials',
         'app.social_types',
         'app.tickets',
+        'app.rooms',
         'app.places',
+        'app.events_rooms',
         'app.tags',
         'app.events_tags'
     ];

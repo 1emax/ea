@@ -23,8 +23,8 @@ class EventsRoomsTableTest extends TestCase
         'app.socials',
         'app.social_types',
         'app.tickets',
-        'app.places',
         'app.rooms',
+        'app.places',
         'app.tags',
         'app.events_tags'
     ];
