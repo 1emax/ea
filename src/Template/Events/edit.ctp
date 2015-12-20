@@ -14,6 +14,8 @@
         <li><?= $this->Html->link(__('New Place'), ['controller' => 'Places', 'action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('List Tickets'), ['controller' => 'Tickets', 'action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('New Ticket'), ['controller' => 'Tickets', 'action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('List Rooms'), ['controller' => 'Rooms', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('New Room'), ['controller' => 'Rooms', 'action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('List Tags'), ['controller' => 'Tags', 'action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('New Tag'), ['controller' => 'Tags', 'action' => 'add']) ?></li>
     </ul>
@@ -23,14 +25,13 @@
     <fieldset>
         <legend><?= __('Edit Event') ?></legend>
         <?php
-        var_dump($place->rooms);
-
             echo $this->Form->input('name');
             echo $this->Form->input('price');
             echo $this->Form->input('description');
             echo $this->Form->input('place_id', ['options' => $places]);
             echo $this->Form->input('url');
             echo $this->Form->input('event_date');
+            echo $this->Form->input('rooms._ids', ['options' => $rooms]);
             echo $this->Form->input('tag_string', ['type' => 'text']);
         ?>
     </fieldset>

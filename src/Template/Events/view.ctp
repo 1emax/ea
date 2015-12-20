@@ -11,6 +11,8 @@
         <li><?= $this->Html->link(__('New Place'), ['controller' => 'Places', 'action' => 'add']) ?> </li>
         <li><?= $this->Html->link(__('List Tickets'), ['controller' => 'Tickets', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Ticket'), ['controller' => 'Tickets', 'action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('List Rooms'), ['controller' => 'Rooms', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New Room'), ['controller' => 'Rooms', 'action' => 'add']) ?> </li>
         <li><?= $this->Html->link(__('List Tags'), ['controller' => 'Tags', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Tag'), ['controller' => 'Tags', 'action' => 'add']) ?> </li>
     </ul>
@@ -60,7 +62,9 @@
                 <th><?= __('User Id') ?></th>
                 <th><?= __('Seat Name') ?></th>
                 <th><?= __('Seat Status') ?></th>
+                <th><?= __('Price') ?></th>
                 <th><?= __('Event Id') ?></th>
+                <th><?= __('Room Id') ?></th>
                 <th><?= __('Created') ?></th>
                 <th><?= __('Modified') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
@@ -71,7 +75,9 @@
                 <td><?= h($tickets->user_id) ?></td>
                 <td><?= h($tickets->seat_name) ?></td>
                 <td><?= h($tickets->seat_status) ?></td>
+                <td><?= h($tickets->price) ?></td>
                 <td><?= h($tickets->event_id) ?></td>
+                <td><?= h($tickets->room_id) ?></td>
                 <td><?= h($tickets->created) ?></td>
                 <td><?= h($tickets->modified) ?></td>
                 <td class="actions">
@@ -80,6 +86,42 @@
                     <?= $this->Html->link(__('Edit'), ['controller' => 'Tickets', 'action' => 'edit', $tickets->id]) ?>
 
                     <?= $this->Form->postLink(__('Delete'), ['controller' => 'Tickets', 'action' => 'delete', $tickets->id], ['confirm' => __('Are you sure you want to delete # {0}?', $tickets->id)]) ?>
+
+                </td>
+            </tr>
+            <?php endforeach; ?>
+        </table>
+    <?php endif; ?>
+    </div>
+    <div class="related">
+        <h4><?= __('Related Rooms') ?></h4>
+        <?php if (!empty($event->rooms)): ?>
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th><?= __('Id') ?></th>
+                <th><?= __('Name') ?></th>
+                <th><?= __('Template Name') ?></th>
+                <th><?= __('Description') ?></th>
+                <th><?= __('Place Id') ?></th>
+                <th><?= __('Created') ?></th>
+                <th><?= __('Modified') ?></th>
+                <th class="actions"><?= __('Actions') ?></th>
+            </tr>
+            <?php foreach ($event->rooms as $rooms): ?>
+            <tr>
+                <td><?= h($rooms->id) ?></td>
+                <td><?= h($rooms->name) ?></td>
+                <td><?= h($rooms->template_name) ?></td>
+                <td><?= h($rooms->description) ?></td>
+                <td><?= h($rooms->place_id) ?></td>
+                <td><?= h($rooms->created) ?></td>
+                <td><?= h($rooms->modified) ?></td>
+                <td class="actions">
+                    <?= $this->Html->link(__('View'), ['controller' => 'Rooms', 'action' => 'view', $rooms->id]) ?>
+
+                    <?= $this->Html->link(__('Edit'), ['controller' => 'Rooms', 'action' => 'edit', $rooms->id]) ?>
+
+                    <?= $this->Form->postLink(__('Delete'), ['controller' => 'Rooms', 'action' => 'delete', $rooms->id], ['confirm' => __('Are you sure you want to delete # {0}?', $rooms->id)]) ?>
 
                 </td>
             </tr>
