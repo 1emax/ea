@@ -7,6 +7,8 @@
         <li><?= $this->Html->link(__('New Place'), ['action' => 'add']) ?> </li>
         <li><?= $this->Html->link(__('List Events'), ['controller' => 'Events', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Event'), ['controller' => 'Events', 'action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('List Rooms'), ['controller' => 'Rooms', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New Room'), ['controller' => 'Rooms', 'action' => 'add']) ?> </li>
     </ul>
 </nav>
 <div class="places view large-9 medium-8 columns content">
@@ -68,6 +70,42 @@
                     <?= $this->Html->link(__('Edit'), ['controller' => 'Events', 'action' => 'edit', $events->id]) ?>
 
                     <?= $this->Form->postLink(__('Delete'), ['controller' => 'Events', 'action' => 'delete', $events->id], ['confirm' => __('Are you sure you want to delete # {0}?', $events->id)]) ?>
+
+                </td>
+            </tr>
+            <?php endforeach; ?>
+        </table>
+    <?php endif; ?>
+    </div>
+    <div class="related">
+        <h4><?= __('Related Rooms') ?></h4>
+        <?php if (!empty($place->rooms)): ?>
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th><?= __('Id') ?></th>
+                <th><?= __('Name') ?></th>
+                <th><?= __('Template Name') ?></th>
+                <th><?= __('Description') ?></th>
+                <th><?= __('Place Id') ?></th>
+                <th><?= __('Created') ?></th>
+                <th><?= __('Modified') ?></th>
+                <th class="actions"><?= __('Actions') ?></th>
+            </tr>
+            <?php foreach ($place->rooms as $rooms): ?>
+            <tr>
+                <td><?= h($rooms->id) ?></td>
+                <td><?= h($rooms->name) ?></td>
+                <td><?= h($rooms->template_name) ?></td>
+                <td><?= h($rooms->description) ?></td>
+                <td><?= h($rooms->place_id) ?></td>
+                <td><?= h($rooms->created) ?></td>
+                <td><?= h($rooms->modified) ?></td>
+                <td class="actions">
+                    <?= $this->Html->link(__('View'), ['controller' => 'Rooms', 'action' => 'view', $rooms->id]) ?>
+
+                    <?= $this->Html->link(__('Edit'), ['controller' => 'Rooms', 'action' => 'edit', $rooms->id]) ?>
+
+                    <?= $this->Form->postLink(__('Delete'), ['controller' => 'Rooms', 'action' => 'delete', $rooms->id], ['confirm' => __('Are you sure you want to delete # {0}?', $rooms->id)]) ?>
 
                 </td>
             </tr>
