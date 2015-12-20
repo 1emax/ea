@@ -7,22 +7,16 @@
         <li><?= $this->Html->link(__('New User'), ['action' => 'add']) ?> </li>
         <li><?= $this->Html->link(__('List Events'), ['controller' => 'Events', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Event'), ['controller' => 'Events', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('List Socials'), ['controller' => 'Socials', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Social'), ['controller' => 'Socials', 'action' => 'add']) ?> </li>
         <li><?= $this->Html->link(__('List Tickets'), ['controller' => 'Tickets', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Ticket'), ['controller' => 'Tickets', 'action' => 'add']) ?> </li>
     </ul>
 </nav>
 <div class="users view large-9 medium-8 columns content">
-    <h3><?= h($user->id) ?></h3>
+    <h3><?= h($user->lastname) . ' ' . h($user->firstname) ?></h3>
     <table class="vertical-table">
         <tr>
             <th><?= __('Email') ?></th>
             <td><?= h($user->email) ?></td>
-        </tr>
-        <tr>
-            <th><?= __('Password') ?></th>
-            <td><?= h($user->password) ?></td>
         </tr>
         <tr>
             <th><?= __('Phone') ?></th>
@@ -132,7 +126,7 @@
                 <th><?= __('User Id') ?></th>
                 <th><?= __('Seat Name') ?></th>
                 <th><?= __('Seat Status') ?></th>
-                <th><?= __('Event Id') ?></th>
+                <th><?= __('Event') ?></th>
                 <th><?= __('Created') ?></th>
                 <th><?= __('Modified') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
@@ -142,8 +136,9 @@
                 <td><?= h($tickets->id) ?></td>
                 <td><?= h($tickets->user_id) ?></td>
                 <td><?= h($tickets->seat_name) ?></td>
-                <td><?= h($tickets->seat_status) ?></td>
-                <td><?= h($tickets->event_id) ?></td>
+                <td><?= h($tickets->enumSeatStatus()) ?></td>
+                <td><?= $this->Html->link( h($eventsList[$tickets->event_id]), ['controller' => 'Events', 'action' => 'view', $tickets->event_id] ) 
+                 ?></td>
                 <td><?= h($tickets->created) ?></td>
                 <td><?= h($tickets->modified) ?></td>
                 <td class="actions">
