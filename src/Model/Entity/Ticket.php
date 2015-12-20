@@ -11,8 +11,10 @@ use Cake\ORM\Entity;
  * @property \App\Model\Entity\User $user
  * @property string $seat_name
  * @property string $seat_status
+ * @property int $price
  * @property int $event_id
  * @property \App\Model\Entity\Event $event
+ * @property int $room_id
  * @property \Cake\I18n\Time $created
  * @property \Cake\I18n\Time $modified
  */

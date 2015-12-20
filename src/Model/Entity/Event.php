@@ -20,6 +20,7 @@ use Cake\Collection\Collection;
  * @property \Cake\I18n\Time $modified
  * @property \Cake\I18n\Time $event_date
  * @property \App\Model\Entity\Ticket[] $tickets
+ * @property \App\Model\Entity\Room[] $rooms
  * @property \App\Model\Entity\Tag[] $tags
  */
 class Event extends Entity
