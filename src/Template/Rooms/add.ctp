@@ -14,7 +14,7 @@
         <legend><?= __('Add Room') ?></legend>
         <?php
             echo $this->Form->input('name');
-            echo $this->Form->input('template_name');
+            echo $this->Form->input('template_name', ['options'=>$this->Room->getTemplatesList(__DIR__)]);
             echo $this->Form->input('description');
             echo $this->Form->input('place_id', ['options' => $places]);
             echo $this->Form->input('events._ids', ['options' => $events]);

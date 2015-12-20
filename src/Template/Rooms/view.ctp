@@ -27,10 +27,6 @@
             <td><?= $room->has('place') ? $this->Html->link($room->place->name, ['controller' => 'Places', 'action' => 'view', $room->place->id]) : '' ?></td>
         </tr>
         <tr>
-            <th><?= __('Id') ?></th>
-            <td><?= $this->Number->format($room->id) ?></td>
-        </tr>
-        <tr>
             <th><?= __('Created') ?></th>
             <td><?= h($room->created) ?></td>
         </tr>
@@ -39,6 +35,26 @@
             <td><?= h($room->modified) ?></td>
         </tr>
     </table>
+    <div class="room-content">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <!-- <script src="https://yastatic.net/jquery/2.1.4/jquery.min.js" type="text/javascript"></script> -->
+        <!-- Latest compiled and minified JavaScript -->
+        <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+
+        <? 
+            $this->assign('title', $room->name);
+            $this->Html->css('room', ['block' => true]);
+            $this->Html->script('https://yastatic.net/jquery/2.1.4/jquery.min.js', ['block' => true]);
+            $this->Html->script('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', ['block' => true]);
+            $this->Html->script('room', ['block' => true]);
+
+            echo $this->Room->loadTemplate($room->template_name, __DIR__);
+        ?>
+    </div>
     <div class="row">
         <h4><?= __('Description') ?></h4>
         <?= $this->Text->autoParagraph(h($room->description)); ?>
