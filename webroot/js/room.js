@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
 		// TO DO: in future do not calc by length. Iterate each and get data-price value
 		var amount = 0;
 		var totalPrice = 0;
-		amount = $('.room-content input:checked').length;
+		amount = getBookedList().length;
 		$(this).find('input').prop('checked') ? amount-- : amount++;
 		totalPrice = amount * ticketPrice;
 		$('#tickets-total').text(amount + ' билет(а) на ' + totalPrice + ' ' + currency);
@@ -25,3 +25,7 @@ jQuery(document).ready(function($) {
             }, 700);
 	  })
 });
+
+function getBookedList() {
+	return $('.room-content .event-ticket:not(.disabled) input:checked');
+}
