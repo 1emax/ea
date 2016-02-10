@@ -26,7 +26,6 @@ class RoomHelper extends Helper
 		// compact
 		$dir = $commonDir . $this->subDir;
 
-		$testVar = 5555;
 		ob_start();
 		include $dir . '/' . $templateAddr;
 		$content=ob_get_contents();

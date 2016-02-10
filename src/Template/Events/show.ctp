@@ -25,7 +25,7 @@
     </div>
     <div class="related">
         <h4><?= __('Related Rooms') ?></h4>
-        <?php if (!empty($rooms)): ?>
+        <?php if (!empty($event->rooms)): ?>
         <table cellpadding="0" cellspacing="0">
             <tr>
                 <th><?= __('Id') ?></th>
@@ -37,7 +37,7 @@
                 <th><?= __('Modified') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
             </tr>
-            <?php foreach ($rooms as $room): ?>
+            <?php foreach ($event->rooms as $room): ?>
             <tr>
                 <td><?= h($room->id) ?></td>
                 <td><?= h($room->name) ?></td>
@@ -70,11 +70,11 @@
             $this->Html->script('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', ['block' => true]);
             $this->Html->script('room', ['block' => true]);
 
-            foreach ($rooms as $room):
+            foreach ($event->rooms as $room):
             ?>
         	<div class="room-content">
 	        	<? 
-	            echo $this->Room->loadTemplate($room, __DIR__ . '/../Rooms');
+	            echo $this->Room->loadTemplate($room->template_name, __DIR__ . '/../Rooms');
 	        	?>
         	</div>
             <?php endforeach; ?>

@@ -46,6 +46,19 @@ class EventsController extends AppController
     }
 
     /**
+     * Show method
+     */
+    public function show($url = null)
+    {
+
+        $event = $this->Events->findByUrl($url)
+            ->contain(['Users', 'Places', 'Rooms', 'Tags', 'Tickets'])
+            ->first();
+        $this->set(compact('event'));
+        $this->set('_serialize', ['event']);
+    }
+
+    /**
      * Add method
      *
      * @return void Redirects on successful add, renders view otherwise.
@@ -143,7 +156,7 @@ class EventsController extends AppController
         $action = $this->request->params['action'];
 
         // The add and index actions are always allowed.
-        if (in_array($action, ['index', 'add', 'tags'])) {
+        if (in_array($action, ['index', 'add', 'tags', 'show'])) {
             return true;
         }
         // All other actions require an id.

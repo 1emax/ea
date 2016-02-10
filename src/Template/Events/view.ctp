@@ -29,8 +29,8 @@
             <td><?= $event->has('place') ? $this->Html->link($event->place->name, ['controller' => 'Places', 'action' => 'view', $event->place->id]) : '' ?></td>
         </tr>
         <tr>
-            <th><?= __('Url') ?></th>
-            <td><?= h($event->url) ?></td>
+            <th><?= __('Url') ?><!-- event/some-url --></th>
+            <td><?= $this->Html->link($event->url, ['controller' => 'Event', 'action' => $event->url]) ?></td>
         </tr>
         <tr>
             <th><?= __('Price') ?></th>
